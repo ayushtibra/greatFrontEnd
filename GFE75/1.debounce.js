@@ -38,3 +38,6 @@ function sayHello() {
   }
   
   amy.speak()  // undefined if not used .apply(this, args)
+
+  // Read sol or theory below to have better understanding of debounce with 'this' - 
+  // https://www.greatfrontend.com/interviews/study/gfe75/questions/javascript/debounce
