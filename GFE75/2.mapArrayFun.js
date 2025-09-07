@@ -1,5 +1,4 @@
-// Build map array function prototype using javascript
-'use strict';
+// Build map polyfill prototype using javascript
 
 Array.prototype.myMap = function (callback, thisArg) {
     const result = [];
