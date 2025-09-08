@@ -6,7 +6,7 @@ Array.prototype.myFilter = function (callbackFn, thisArg) {
         const element = this[i];
         if(callbackFn.call(thisArg, element, i, this)){
             // result[i] = element; // if we want to return the same length of the array
-            result.push(element);
+            result.push(element); // this is for filter and above is for map
         }
       }
     }
