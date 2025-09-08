@@ -11,6 +11,10 @@ Array.prototype.myMap = function (callback, thisArg) {
 
             // or if instead of call, we use apply, we need to pass the arguments as an array
             // result.push(callback.apply(thisArg, [this[i], i, this]));
+
+            // With push, we are not returning the same length of the array but with
+            //  result[i] = callback.call(thisArg, this[i], i, this); we are returning the same length of the array
+            // for array like [1, , 3] it will return [2, 6] with push
         }
     }
     return result;
