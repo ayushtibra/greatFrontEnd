@@ -1,3 +1,5 @@
+//https://www.greatfrontend.com/interviews/study/gfe75/questions/javascript/flatten
+
 const FlattenArray = (arr) => {
     const result = arr.reduce((acc, curr) => {
         if(Array.isArray(curr)){

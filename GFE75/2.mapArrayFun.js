@@ -1,4 +1,5 @@
 // Build map polyfill prototype using javascript
+// https://www.greatfrontend.com/questions/javascript/array-map
 
 Array.prototype.myMap = function (callback, thisArg) {
     const result = [];

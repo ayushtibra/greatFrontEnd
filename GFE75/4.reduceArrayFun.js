@@ -1,3 +1,5 @@
+// https://www.greatfrontend.com/interviews/study/gfe75/questions/javascript/array-reduce
+
 Array.prototype.myReduce = function (callbackFn, thisArg) {
     const noInitialValue = thisArg === undefined;
   const len = this.length;

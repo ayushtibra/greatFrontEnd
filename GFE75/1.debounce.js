@@ -1,5 +1,6 @@
 // // It is a Technique used to control how many times we allow a function to be executed over time.
 // // ex - elevator button to door close
+// https://www.greatfrontend.com/interviews/study/gfe75/questions/javascript/debounce
 
 function debounce(callback, delay) {
   let timeout;

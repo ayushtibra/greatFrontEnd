@@ -1,3 +1,5 @@
+//https://www.greatfrontend.com/questions/javascript/array-filter
+
 Array.prototype.myFilter = function (callbackFn, thisArg) {
     // throw 'Not implemented!';
     const result = [];
